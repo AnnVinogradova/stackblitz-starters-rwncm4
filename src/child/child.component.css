@@ -1,0 +1,150 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.header-name {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.nav-links a {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(126, 34, 34);
+  text-decoration: none;
+}
+
+.photo-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.photo-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.photo-section img {
+  width: calc(46.44% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.group-section {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.group-section ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.group-section li {
+  margin: 10px;
+  text-align: center;
+} 
+
+.group-section p {
+  margin: 5px 0;
+}
+
+
+.collection-section {
+  text-align: center;
+}
+
+
+.collection-section button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.collection-section a {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(126, 34, 34);
+  text-decoration: none;
+  margin: 12px;
+}
+
+.newsletter-section p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.newsletter-section input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}
+
+h3{
+  text-align: center;
+}
+
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer input {
+  margin-bottom: 10px;
+}
+
+footer span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer #userName {
+  margin-top: 10px;
+}
